@@ -1,4 +1,4 @@
-
+<script>
 function getQueryString(name) { 
     var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)", "i"); 
     var r = window.location.search.substr(1).match(reg); 
@@ -9,6 +9,7 @@ if(getQueryString("pwd")==null){
     window.location.href='404.html';
 }
 else{
-    <h1>恭喜您获得内测资格，正在准备下载</h1>
+    document.write("<h1>恭喜您获得内测资格，正在准备下载</h1>");
     setTimeout(function() {window.location.href='http://www.52api.cc/lanzou/api.php?url=https://wwu.lanzouy.com/i98Bo0bhjv3c&pwd='+getQueryString("pwd")+'&type=down';) }, 2000) 
 }
+</script>
