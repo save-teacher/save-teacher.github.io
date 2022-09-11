@@ -1,4 +1,4 @@
-# save-teacher.github.io
+# Save Teacher
 Save Teacher官网
 
 - [内测版下载](/page/beta)
