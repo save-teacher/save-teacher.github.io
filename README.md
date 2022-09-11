@@ -1,7 +1,7 @@
 # Save Teacher
 Save Teacher官网
 
-- [内测版下载](/page/beta)
+- [我有内测版吗？如何申请内测版？](/page/beta)
 - [开发者](/page/developer)
 - [联系我](/page/contact)
 
