@@ -1,8 +1,15 @@
 # Save Teacher
 Save Teacher官网
 
-- [我有内测版吗？如何申请内测版？](/page/beta)
-- [开发者](/page/developer)
-- [联系我](/page/contact)
+<h1>Latest Posts</h1>
+
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+      <p>{{ post.excerpt }}</p>
+    </li>
+  {% endfor %}
+</ul>
 
 <a href="https://www.bfcounter.vip/" style="display:none;"><img src="https://www.bfcounter.vip/generatepic?userid=e56e7a93-38c0-4a6f-af9f-72d6a11b6839" alt="Page Counter" border="0"></a>
