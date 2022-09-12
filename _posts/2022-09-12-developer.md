@@ -1,7 +1,7 @@
 ---
-layouts:post
-
 title:"开发者"
+
+layouts:post
 ---
 # 开发者
 
