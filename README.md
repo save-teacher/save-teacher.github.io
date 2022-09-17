@@ -4,7 +4,7 @@ Save Teacher官网
 <ul>
   {% for post in site.posts %}
     <li>
-      <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
+      <ul><a href="{{ post.url }}">{{ post.title }}</a></ul>
       <p>{{ post.excerpt }}</p>
     </li>
   {% endfor %}
