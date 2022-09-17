@@ -59,3 +59,5 @@ ec3b718e47b29bc6fa1ae432c84b7340
 ### MD5
 
 e56963c5f557c83b6e926c997e570d60
+
+使用`certutil -hashfile <name> MD5`命令查看MD5
