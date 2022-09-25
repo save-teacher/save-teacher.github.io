@@ -2,6 +2,10 @@
 Save Teacher官网
 
 <ul>
+  <li>
+    <h4><a href="/timeline">历史版本</a></h4>
+    <p>这里包含了历史版本</p>
+  </li>
   {% for post in site.posts %}
     <li>
       <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
