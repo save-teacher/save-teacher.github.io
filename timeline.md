@@ -60,4 +60,31 @@ ec3b718e47b29bc6fa1ae432c84b7340
 
 e56963c5f557c83b6e926c997e570d60
 
+## Save Teacher v1.1 Beta
+
+### Save Teacher v1.1 Beta 更新如下
+
+修复了若干内容
+
+## Save Teacher v1.1 正式版
+
+### Save Teacher v1.1 正式版 更新如下
+
+修复了若干内容
+
+### MD5
+
+410e3415c9ff3e83d68bdb4a3b513903
+
+
+## Save Teacher v1.1 正式版
+
+### Save Teacher v1.1 正式版 更新如下
+
+修复了若干内容
+
+### MD5
+
+d73e6b3c9af4ed4f4770e81e7b3022d7
+
 使用`certutil -hashfile <name> MD5`命令查看MD5
