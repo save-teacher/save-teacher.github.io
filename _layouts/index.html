@@ -1,0 +1,15 @@
+---
+layout: default
+---
+
+{{ content }}
+
+<script src="ad.js"></script>
+<script>
+  post=document.getElementsByClassName('post')
+  for(i=0;i<post.length;i++){
+      if(i%10==0){
+          post[i].innerHTML+=ad()
+      }
+  }
+</script>
