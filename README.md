@@ -1,3 +1,7 @@
+---
+layouts: index
+---
+
 # Save Teacher
 Save Teacher官网
 
