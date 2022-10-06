@@ -1,9 +1,13 @@
+var addata = [];
+addata[1]={'title': '广告位招租啦', 'excerpt': '详情请看...', 'href': '404.html'}
 function ad(){
+  var choose = addata[Math.floor(Math.random()*addata.length)];
   return '\n\
   <li class="post">\n\
-      <h4><a href="/2022/10/06/version1.2.1.html">Save Teacher v1.2.1 正式版 发布</a></h4>\n\
-      <p></p><p>支持如极域等多种电子教室，防止脱控。防止学生不认真上课。禁用注册表、注销、运行等功能。</p>\n\
+      <h4><a href="'+choose['href']+'">'+choose['title']+'</a></h4>\n\
+      <p></p><p>'+choose['excerpt']+'</p>\n\
 \n\
-<p></p>\n\
+<p></p><p style="font-size: 0.01px;">广告</p>\n\
     </li>';
 }
+
