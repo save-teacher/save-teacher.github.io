@@ -7,7 +7,7 @@ Save Teacher官网
     <p>这里包含了历史版本</p>
   </li>
   {% for post in site.posts %}
-    <li>
+    <li class="post">
       <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
       <p>{{ post.excerpt }}</p>
     </li>
