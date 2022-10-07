@@ -1,5 +1,5 @@
 var addata = [];
-addata[1]={'title': '广告位招租啦', 'excerpt': '详情请看...', 'address': '404.html'}
+addata[1]={'title': '广告位招租啦', 'excerpt': '详情请看...', 'address': 'https://save-teacher.github.io/2022/08/31/contact.html'}
 function ad(){
   var choose = addata[Math.floor(Math.random()*addata.length)];
   return '\n\
