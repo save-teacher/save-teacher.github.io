@@ -7,7 +7,7 @@ function ad(){
       <h4><a href="'+choose['address']+'">'+choose['title']+'</a></h4>\n\
       <p></p><p>'+choose['excerpt']+'</p>\n\
 \n\
-<p></p><p style="text-align:right;color:#BBFFFF;">广告</p>\n\
+<p></p><p style="text-align:right;color:#FFE4B5;">广告</p>\n\
     </li>';
 }
 
