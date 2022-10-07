@@ -64,7 +64,7 @@
 </ul>
     <script>
         function set(name,data=Number.MAX_SAFE_INTEGER){
-            document.cookie = name+document.getElementById(name).checked+"; max-age=" + data;
+            document.cookie = name+"="+document.getElementById(name).checked+"; max-age=" + data;
         }
     </script>
 </body>
