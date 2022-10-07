@@ -53,18 +53,18 @@
     <li>
         <input type="checkbox" id="night">
         夜间模式
-        <label for="night" onclick="set('night', document.getElementById('night').checked)"><em></em></label>
+        <label for="night" onclick="set('night')"><em></em></label>
     </li>
     <h2>广告设置</h2>
     <li>
         <input type="checkbox" id="ad">
         隐藏广告
-        <label for="ad" onclick="set('ad', document.getElementById('ad').checked, 15*24*60*60)"><em></em></label>
+        <label for="ad" onclick="set('ad', 15*24*60*60)"><em></em></label>
     </li>
 </ul>
     <script>
-        function set(name,obj,data=Number.MAX_SAFE_INTEGER){
-            document.cookie = name+obj+"; max-age=" + data;
+        function set(name,data=Number.MAX_SAFE_INTEGER){
+            document.cookie = name+document.getElementById(name).checked+"; max-age=" + data;
         }
     </script>
 </body>
