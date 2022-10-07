@@ -52,9 +52,10 @@
     <script>
       post=document.getElementsByClassName('post')
       for(i=0;i<post.length;i++){
-          if(i%10==0){
-              post[i].innerHTML+=ad()
-          }
+        // 33%广告弹出概率
+        if(Math.floor(Math.random()*3) == 0 && i%10==Math.floor(Math.random()*10)){
+          post[i].innerHTML+=ad()
+        }
       }
     </script>
   </body>
