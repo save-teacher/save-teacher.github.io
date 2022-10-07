@@ -50,10 +50,11 @@
     
     <script src="ad.js"></script>
     <script>
+      st=Math.floor(Math.random()*10)
       post=document.getElementsByClassName('post')
       for(i=0;i<post.length;i++){
         // 33%广告弹出概率
-        if(Math.floor(Math.random()*3) == 0 && i%10==Math.floor(Math.random()*10)){
+        if(Math.floor(Math.random()*3) == 0 && i%10==st){
           post[i].innerHTML+=ad()
         }
       }
