@@ -36,6 +36,10 @@
     	</div>
         <div id="3content">
         	<p>下载即将开始</p>
+		<iframe
+    id="frame"
+    style="width:70%;height:40%;"
+    src="https://wwu.lanzoue.com/iCs1e0efv2ad"></iframe>
     	</div>
         <div id="4content">
         	<p>下载已开始。向导结束。</p>
@@ -65,20 +69,12 @@
 			}
 		}
 		if(now==3){
-			downloadFile("http://www.52api.cc/lanzou/api.php?url=https://wwu.lanzoue.com/iCs1e0efv2ad&type=down");
-			setTimeout(function(){now=4}, 2000);
 		}
 		if(now==5){
       now=4;
     }
 	}
 	change(1);
-	function downloadFile(downloadFileUrl) {
-		var elemIF = document.createElement("iframe");
-		elemIF.src = downloadFileUrl;
-		elemIF.style.display = "none";
-		document.body.appendChild(elemIF);
-	}
 	</script>
 </div>
 <!-- /.guide -->
