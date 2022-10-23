@@ -36,10 +36,6 @@
     	</div>
         <div id="3content">
         	<p>下载即将开始</p>
-		<iframe
-    id="frame"
-    style="width:70%;height:40%;"
-    src="https://wwu.lanzoue.com/iCs1e0efv2ad"></iframe>
     	</div>
         <div id="4content">
         	<p>下载已开始。向导结束。</p>
@@ -54,6 +50,10 @@
 	function change(value){
 		if(value==undefined) now++;
 		else now=value;
+		if(now==3){
+			window.open('https://wwu.lanzoue.com/iCs1e0efv2ad', "newwindow", "height=1000, width=1000, top=0,left=0,toolbar=no, menubar=no, scrollbars=no, resizable=no, location=no, status=no");
+		}
+		if(now>=5) now=4;
 		for(i=1;i<=4;i++){
 			if(i<now){
 				document.getElementById(i+"").className="guide-item over";
@@ -68,11 +68,7 @@
 				document.getElementById(i+"content").style.display='none';
 			}
 		}
-		if(now==3){
-		}
-		if(now==5){
-      now=4;
-    }
+		
 	}
 	change(1);
 	</script>
